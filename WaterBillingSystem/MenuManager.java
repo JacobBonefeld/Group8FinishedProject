@@ -10,7 +10,7 @@ public class MenuManager {
                     "1. Manage Customers\n" +
                     "2. Manage Reading Cards \n" +
                     "3. Create invoice \n" +
-                    "4. Statics [Unavailable]\n" +
+                    "4. Statics\n" +
                     "5. Verify Payment [Unavailable]\n" +
                     "6. Manage Reminders [Unavailable]");
 
@@ -159,7 +159,7 @@ public class MenuManager {
         int chosenMenu = -1;
         System.out.println("The following functions \n" +
                 "1. Generate payment Statistics [Unavailable]\n" +
-                "2. Generate Consumption Statistics [Unavailable]" +
+                "2. Generate Consumption Statistics" +
                 "press 0 to go back"
         );
 
@@ -178,8 +178,7 @@ public class MenuManager {
                     break;
 
                 case 2:
-                    System.out.println("NOT AVAILABLE IN PROOF OF CONCEPT VERSION");
-                    break;
+                    return StatisticsManager.consumption();
 
                 default:
                     System.out.println("Input doesn't match menu number try a number from 1-2");
@@ -194,7 +193,7 @@ public class MenuManager {
         Scanner in = new Scanner(System.in);
         int chosenMenu = -1;
         System.out.println("The following Payment verification functions are available\n" +
-                "1. Import .csv file [Unavailable]" +
+                "1. Import .csv file [Unavailable]\n" +
                 "press 0 to go back"
         );
 
@@ -226,7 +225,7 @@ public class MenuManager {
         int chosenMenu = -1;
         System.out.println("The following functions can be found in the Reminder manager\n" +
                 "1. Check Payment Status [Unavailable]\n" +
-                "2. Check Reminder Amounts [Unavailable]" +
+                "2. Check Reminder Amounts[Unavailable] \n" +
                 "press 0 to go back");
 
         while (chosenMenu == -1) {
