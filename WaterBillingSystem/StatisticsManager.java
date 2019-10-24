@@ -28,7 +28,7 @@ public class StatisticsManager {
             System.out.print("Water usage from " + customerName + " = ");
 
             DB.selectSQL("SELECT SUM(reading_amount) FROM reading_card INNER JOIN water_meters " +
-                    "ON water_meters.cus_id = " + customerID + "");
+                    "ON water_meters.serial = reading_card.serial WHERE water_meters.cus_id = " + customerID + "");
             waterConsumption = DB.getData();
 
         }
