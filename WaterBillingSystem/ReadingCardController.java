@@ -14,7 +14,7 @@ public class ReadingCardController {
         Scanner in = new Scanner(System.in);
         int serialID, readingAmount, readingDate;
 
-        System.out.println("The following functions can be found in the customer manager\n" +
+        System.out.println("The following functions can be found in the Reading Card Manager\n" +
                 "1. Insert Reading Card Data\n" +
                 "press 0 to go back");
         while (chosenMenu == -1) {
