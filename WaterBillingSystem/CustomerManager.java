@@ -1,6 +1,13 @@
 import java.util.Scanner;
 
+/**
+ * controls Customer submenu and does inserts data
+ */
 public class CustomerManager {
+    /**
+     * adds value to the SQL database
+     * @return
+     */
     public static int addCustomer() {
         //Variables
         int chosenMenu = -1;

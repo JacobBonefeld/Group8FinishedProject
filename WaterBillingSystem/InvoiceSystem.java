@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class InvoiceSystem {
 
+    /**
+     * Calculates the price by using a helper function that returns the total value
+     * @return
+     */
     public static int calcPrice() {
         Scanner in = new Scanner(System.in);
         int waterTax = 1;

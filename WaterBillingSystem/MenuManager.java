@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * Controls Menu and sends the user around
+ */
 public class MenuManager {
     public static void chooseMenu() {
         Scanner in = new Scanner(System.in);
@@ -91,7 +94,7 @@ public class MenuManager {
         System.out.println("The following functions can be found in the Reading Card manager\n" +
                 "1. Generate Reading Card [Unavailable]\n" +
                 "2. Insert Reading Card Data\n" +
-                "3. \n" +
+                "3. Check Status on Reading Card\n" +
                 "press 0 to go back"
         );
 
@@ -159,7 +162,8 @@ public class MenuManager {
         int chosenMenu = -1;
         System.out.println("The following functions \n" +
                 "1. Generate payment Statistics [Unavailable]\n" +
-                "2. Generate Consumption Statistics" +
+                "2. Generate Consumption Statistics\n" +
+
                 "press 0 to go back"
         );
 

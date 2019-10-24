@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 public class ReadingCardController {
 
+    /**
+     * Inserts reading Data to the SQL server
+     * @return
+     */
     public static int insertReadingCardData() {
         int chosenMenu = -1;
         Scanner in = new Scanner(System.in);
