@@ -6,6 +6,7 @@ public class StatisticsManager {
      * Shows how much water used in total or for a specific costumer
      * @return
      */
+
     public static int consumption() {
 
         Scanner in = new Scanner(System.in);

@@ -163,6 +163,7 @@ public class MenuManager {
         System.out.println("The following functions \n" +
                 "1. Generate payment Statistics [Unavailable]\n" +
                 "2. Generate Consumption Statistics\n" +
+
                 "press 0 to go back"
         );
 
